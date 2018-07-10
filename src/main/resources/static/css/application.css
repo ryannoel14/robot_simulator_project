@@ -1,0 +1,79 @@
+/*
+----------------------------------------
+Tantek Celik's Whitepsace Reset
+     Author:  	Tantek Celik, Shane Riley
+    Version:  	(CC) 2010 Some Rights Reserved - http://creativecommons.org/licenses/by/2.0
+Description:	Resets default styling of common browsers to a common base
+----------------------------------------
+*/
+/* line 10, whitespace-reset.scss */
+ul, ol {
+  list-style: none; }
+
+/* line 11, whitespace-reset.scss */
+h1, h2, h3, h4, h5, h6, pre, code {
+  font-size: 1em; }
+
+/* line 12, whitespace-reset.scss */
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input, dl, dt, dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+/* line 15, whitespace-reset.scss */
+a img, :link img, :visited img, fieldset {
+  border: none; }
+
+/* line 16, whitespace-reset.scss */
+address {
+  font-style: normal; }
+
+/* line 17, whitespace-reset.scss */
+header, section, article, nav, footer, hgroup, details, summary, figure {
+  display: block; }
+
+/* line 18, whitespace-reset.scss */
+mark {
+  color: inherit;
+  background: transparent; }
+
+/* line 21, whitespace-reset.scss */
+abbr {
+  border: none; }
+
+/* line 22, whitespace-reset.scss */
+summary::-webkit-details-marker {
+  display: none; }
+
+/* line 3, application.css.sass */
+body {
+  font: normal 14px/150% Helvetica, Arial, sans-serif;
+  color: #282828;
+  background: #f0f0f0; }
+
+/* line 8, application.css.sass */
+section {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  z-index: 1;
+  width: 640px;
+  padding: 40px;
+  margin: 0 0 0 -360px;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  background: white; }
+
+/* line 20, application.css.sass */
+article {
+  padding: 0 0 25px 0; }
+  /* line 22, application.css.sass */
+  article h1 {
+    padding: 0 0 20px 0;
+    font-size: 1.3rem; }
+
+/* line 26, application.css.sass */
+canvas {
+  display: block;
+  margin: 0 0 20px 0; }
